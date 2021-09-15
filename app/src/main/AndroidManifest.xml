@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Lectures">
         <activity
-            android:name=".L3_IntentTransfer"
+            android:name=".L6_FileDownloadOnBackgroundAsyncTask"
             android:exported="true" />
         <activity
-            android:name=".L3_CustomGridView"
+            android:name=".L5_AsyncTask"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +22,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".L2_CustomListViewUsingArrayAdapter"
+            android:name=".L4_RecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".L3_IntentTransfer"
+            android:exported="true" />
+        <activity
+            android:name=".L3_CustomGridView"
             android:exported="true"></activity>
+        <activity
+            android:name=".L2_CustomListViewUsingArrayAdapter"
+            android:exported="true" />
         <activity
             android:name=".L1_CustomListView"
             android:exported="true" />
